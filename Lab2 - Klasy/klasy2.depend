@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1395306895 source:c:\users\lukasz\skydrive\dokumenty\kody\cpp\cb\lab2 - klasy\klasy2\listaklas.cpp
+	<stdio.h>
+	<iostream>
+
+1395305140 source:c:\users\lukasz\skydrive\dokumenty\kody\cpp\cb\lab2 - klasy\klasy2\stdafx.cpp
+	"stdafx.h"
+
+1398640501 c:\users\lukasz\skydrive\dokumenty\kody\cpp\cb\lab2 - klasy\klasy2\stdafx.h
+	<stdio.h>
+	<iostream>
+	<tchar.h>
+
+1398642715 source:c:\users\lukasz\skydrive\dokumenty\kody\cpp\cb\lab2 - klasy\klasy2\klasy2.cpp
+	"stdafx.hpp"
+	"klasy.hpp"
+
+1398642706 c:\users\lukasz\skydrive\dokumenty\kody\cpp\cb\lab2 - klasy\klasy2\stdafx.hpp
+	<stdio.h>
+	<iostream>
+	<tchar.h>
+
+1398642750 c:\users\lukasz\skydrive\dokumenty\kody\cpp\cb\lab2 - klasy\klasy2\klasy.hpp
+	"stdafx.hpp"
+
