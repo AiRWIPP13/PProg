@@ -1,95 +1,94 @@
 #include <iostream>
-#define PI 3,1415
-
+#define Tab 2
 using namespace std;
+float pi = 3.14;
 
-class figure {
+class Figure {
 private:
     string name;
 public:
-    int pole;
-    void setName(string);
-    void calcArea(void);
-    void virtual Area() {    cout << "Area = a*h*sinL" << endl;};
-    void virtual CArea();
-    figure();
-    figure(string);
 
-    };
+    void virtual setName() { name = "figure";}
+    void virtual showName() { cout << name << endl;}
+    virtual float Area() {
+       return -1;              // Error
+    }
+
+ };
 
 
-class rectangle : figure {
+
+class Kwadrat : Figure {
 public:
-    void Area() {   cout << "Area = a*b" << endl;};
-    void CArea(int a,int b) {pole=a*b;};
-};
+    Kwadrat(float bok ) : a( bok ) {}   // przypisania 'a' wartosci z init
+    void setName() { name = "Kwadrat";}
+    float Area() {
+       return a * a;  // a^2
+     }
 
+private:
+    string name;
+    float a; // bok kwadratu
+ };
 
-class circle : figure {
+class Kolo : public Figure {
 public:
-    void Area() {   cout << "Area = pi*r^2" << endl;};
-    void CArea(int r) {pole=PI*r^2;};
-};
+    Kolo(float promien ) : r( promien ) {}
+    void setName() { name = "Kolo";}
+    float Area() {
+       return pi * r * r;   //pi*r^2
+     }
+
+private:
+    string name;
+    float r; // promieñ kola
+ };
 
 
-class square : figure {
-public:
-    void Area() {   cout << "Area = a^2" << endl;};
-    void CArea(int a) {pole=a^2;};
-};
 
 
-class parallelogram : figure {
-public:
-    void Area() {   cout << "Area = a*h" << endl;};
-    void CArea(int a, int h) {pole=a*h;};
-};
+Figure *tablica[Tab];
 
-
-figure::figure() {string nm="figure";}
-
-
-figure* Figura;
-
-//Figura* = tablica[5];
-
-void setName(string nm) {
-  //  Figura.name=nm;
+void setter() {
+    for(int i=0;i<=Tab;i++) {
+        tablica[i]->setName();
+    }
 }
 
-void calcArea(string Pole) {
-//    Figura.pole=Pole;}
-
-
-
-void setAreas() {
-    tablica[0] = new figure;
-    tablica[1] = new rectangle;
-    tablica[2] = new square;
-    tablica[3] = new circle;
-    tablica[4] = new parallelogram;
-
-    }
-
-void showAreas() {
-    for (int i=0;i<5;i++) {
-        wsk = tablica[i];
-        wsk -> Area;
-    }
-
-    }
-
-
-int main()
-{
-    cout << "Metody wirtualne i polimorfizm!" << endl;
-    cout << endl;
-    setAreas();
-    showAreas();
-
-
-
-
-
-    return 0;
+void init() {
+    tablica[0] = new Figure;
+    //tablica[1] = new Prostokat;
+   // tablica[2] = new Kwadrat;
+    tablica[1] = new Kolo(4);
+    //tablica[4] = new Rownoleglobok;
+    //tablica[5]
+    //tablica[6]
+    //tablica[7]
+    //tablica[8]
+    //tablica[9]
+    setter();
 }
+
+ void countArea() {
+   for (int i=0;i<=Tab;i++) {
+   cout << tablica[i]->Area() << endl;
+   }
+   return;
+ }
+
+ void showArea() {
+    for (int i=0;i<=Tab;i++) {
+        tablica[i]->showName();
+        cout << tablica[i]->Area() << endl;
+    }
+ }
+
+
+
+ int main() {
+    init();
+    countArea();
+    showArea();
+
+   return 0;
+ }
