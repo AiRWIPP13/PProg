@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Kalkulator", "Kalkulator\Kalkulator.vcxproj", "{03E72C26-07C8-4E55-A47E-73394C879E2A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{03E72C26-07C8-4E55-A47E-73394C879E2A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{03E72C26-07C8-4E55-A47E-73394C879E2A}.Debug|Win32.Build.0 = Debug|Win32
+		{03E72C26-07C8-4E55-A47E-73394C879E2A}.Release|Win32.ActiveCfg = Release|Win32
+		{03E72C26-07C8-4E55-A47E-73394C879E2A}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

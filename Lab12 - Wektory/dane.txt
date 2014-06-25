@@ -1,0 +1,1 @@
+okno,stolik,noga,glowa,nos,oko,ucho,kolor,monitor,klawiatura,myszka,komputer

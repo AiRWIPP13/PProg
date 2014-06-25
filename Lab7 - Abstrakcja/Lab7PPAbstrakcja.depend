@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1365604359 source:c:\documents and settings\student\pulpit\chooorian\lab7ppabstrakcja\main.cpp
+	<iostream>
+	"element.h"
+
+1365602470 source:c:\documents and settings\student\pulpit\chooorian\lab7ppabstrakcja\element.cpp
+	"element.h"
+
+1365603870 c:\documents and settings\student\pulpit\chooorian\lab7ppabstrakcja\element.h
+	<iostream>
+	<stdio.h>
+
+1365603287 source:c:\documents and settings\student\pulpit\chooorian\lab7ppabstrakcja\kondensator.cpp
+	"element.h"
+
+1365603189 source:c:\documents and settings\student\pulpit\chooorian\lab7ppabstrakcja\rezystor.cpp
+	"element.h"
+
+1365603287 source:c:\documents and settings\student\pulpit\chooorian\lab7ppabstrakcja\cewka.cpp
+	"element.h"
+

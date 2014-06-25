@@ -1,0 +1,32 @@
+# depslib dependency file v1.0
+1368023763 source:c:\documents and settings\arek\pulpit\lab10ppwyjatki\main.cpp
+	<iostream>
+	<string.h>
+	"wyjatek.cpp"
+	"stos.cpp"
+	"symulacja.cpp"
+
+1368023610 c:\documents and settings\arek\pulpit\lab10ppwyjatki\stos.h
+	<iostream>
+
+1368022426 c:\documents and settings\arek\pulpit\lab10ppwyjatki\wyjatek.h
+	<iostream>
+
+1368022745 source:c:\documents and settings\arek\pulpit\lab10ppwyjatki\wyjatek.cpp
+	"wyjatek.h"
+
+1368023738 c:\documents and settings\arek\pulpit\lab10ppwyjatki\symulacja.h
+	<iostream>
+
+1368022802 source:c:\documents and settings\arek\pulpit\lab10ppwyjatki\symulacja.cpp
+	"symulacja.h"
+
+1368022745 c:\documents and settings\arek\pulpit\lab10ppwyjatki\wyjatek.cpp
+	"wyjatek.h"
+
+1368023638 c:\documents and settings\arek\pulpit\lab10ppwyjatki\stos.cpp
+	"stos.h"
+
+1368022802 c:\documents and settings\arek\pulpit\lab10ppwyjatki\symulacja.cpp
+	"symulacja.h"
+

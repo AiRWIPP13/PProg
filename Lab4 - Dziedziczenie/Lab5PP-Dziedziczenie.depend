@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1364247315 source:h:\programy w c++\lab5pp-dziedziczenie\main.cpp
+	"punkt.h"
+	<iostream>
+
+1364247244 h:\programy w c++\lab5pp-dziedziczenie\punkt.h
+	<iostream>
+	<stdio.h>
+	<cstdlib>
+
+1364247212 source:h:\programy w c++\lab5pp-dziedziczenie\punkt.cpp
+	"punkt.h"
+

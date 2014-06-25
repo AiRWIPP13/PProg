@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1366810171 source:c:\documents and settings\student\pulpit\lab8ppoperatory\lab8ppoperatory\wektor.cpp
+	"Wektor.h"
+
+1366810383 c:\documents and settings\student\pulpit\lab8ppoperatory\lab8ppoperatory\wektor.h
+
+1366813281 source:c:\documents and settings\student\pulpit\lab8ppoperatory\lab8ppoperatory\punkt3d.cpp
+	"Punkt3D.h"
+
+1366812491 c:\documents and settings\student\pulpit\lab8ppoperatory\lab8ppoperatory\punkt3d.h
+
+1366814393 source:c:\documents and settings\student\pulpit\lab8ppoperatory\lab8ppoperatory\main.cpp
+	<iostream>
+	"Punkt3D.h"
+	"Wektor.h"
+
